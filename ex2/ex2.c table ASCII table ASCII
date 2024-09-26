@@ -1,0 +1,23 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+int main()
+{
+
+	char signe[100];
+	printf("Quel est votre opérateur? ");
+	scanf("%d", signe);
+	if (signe == '+' ){
+	printf("Votre opération est une addition");}
+	else if (signe == '-'){
+	printf("Votre opération est une soustration");}
+	else if (signe == '*'){
+	printf("Votre opération est une multiplaction");}
+	else if (signe == '/'){
+	printf("Votre opération est une division");}
+	else if (signe == '%'){
+	printf("Votre opération est un reste de divison");}
+	else {
+	printf("Votre opération n'est pas connu");}
+	exit(0);
+
